@@ -1,0 +1,1 @@
+ db.products.insertOne({id:2,name:"pencil",price:10,stock:12,reviews:[{ReviewerName:"Shalon",rating:3,review:"Very Average Pencil"},{ReviewerName:"Marshal",rating:5,review:"God-Level Pencil"}]})

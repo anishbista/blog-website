@@ -1,0 +1,16 @@
+<%-include("./partials/header")%>
+<h1>Compose</h1>
+<form action="/compose" method="post">
+  <div class="mb-3 compose-content">
+    <label for="formGroupExampleInput" class="form-label">Title</label>
+    <input type="text" class="form-control" name="title" />
+  </div>
+  <div class="form-floating compose-content">
+    <label for="floatingTextarea">Post</label>
+    <textarea class="form-control" rows="5" cols="10" name="post"></textarea>
+  </div>
+  <div class="compose-content">
+    <button type="submit" class="btn btn-primary">Publish</button>
+  </div>
+</form>
+<%-include("./partials/footer")%>
